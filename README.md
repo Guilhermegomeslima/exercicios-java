@@ -12,6 +12,7 @@ Repositório com as soluções dos desafios práticos de Programação Orientada
 * [Desafio 02 - Construtores](#desafio-02---construtores)
 * [Desafio 03 - Encapsulamento e Herança](#desafio-03---encapsulamento-e-herança)
 * [Desafio 04 - Membros Estáticos](#desafio-04---membros-estáticos)
+* [Como Executar o Projeto](#como-executar-o-projeto)
 
 ---
 
@@ -212,4 +213,65 @@ Digite uma string: radar
 Número de vogais na string: 2
 String invertida: radar
 É um palíndromo? Sim
+```
+
+---
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+* **Java Development Kit (JDK)** versão 11 ou superior instalado.
+
+---
+
+### 1. Obter os Arquivos do Projeto
+
+Você pode obter o código de duas formas:
+
+#### Opção A: Clonando via Git (Recomendado)
+No terminal, execute:
+```bash
+git clone https://github.com/Guilhermegomeslima/exercicios-java.git
+cd exercicios-java
+```
+
+#### Opção B: Baixando o arquivo .ZIP
+1. No topo da página do repositório no GitHub, clique no botão verde **`< Code >`**.
+2. Selecione a opção **Download ZIP**.
+3. Extraia o arquivo `.zip` em uma pasta de sua preferência no seu computador.
+
+---
+
+### 2. Executando pelas IDEs / Editores
+
+#### 🔹 Execução no Visual Studio Code (VS Code)
+1. Abra o VS Code e vá em **File > Open Folder...** (ou `Ctrl + K, Ctrl + O`).
+2. Selecione a pasta do repositório (ou a pasta do desafio específico).
+3. Certifique-se de ter a extensão **Extension Pack for Java** (Microsoft) instalada.
+4. Abra o arquivo principal que possui o método `main` (ex: `Programa.java` ou `App.java`).
+5. Clique no botão **Run** que aparece logo acima do método `main` ou pressione `F5`.
+
+#### 🔹 Execução no jGRASP
+1. Abra o **jGRASP**.
+2. No menu superior, vá em **File > Open** e navegue até a pasta do desafio desejado.
+3. Abra primeiro as classes auxiliares/modelo (ex: `Conta.java`) e depois a classe principal (ex: `Programa.java`).
+4. Com a classe principal aberta na tela:
+   - Clique no ícone da **fita verde (Compile)** na barra de ferramentas superior para compilar.
+   - Clique no ícone do **homem correndo (Run)** para executar o programa.
+
+---
+
+### 3. Execução via Terminal (Modo Manual)
+
+Navegue até a pasta do desafio desejado e utilize os comandos nativos do Java:
+
+```bash
+# Entrar na pasta do desafio (exemplo: desafio-01)
+cd desafio-01
+
+# Compilar todas as classes Java da pasta
+javac *.java
+
+# Executar a classe principal (substitua 'Programa1' pelo nome da classe com o método main)
+java Programa1
 ```
